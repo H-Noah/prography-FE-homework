@@ -1,0 +1,95 @@
+
+/*-----grid & body------*/
+body{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  position: relative;
+}
+.grid{
+  display: flex;
+  width: 1080px;
+  height: 800px;
+  background-color: #f2f2f2;
+}
+.box {
+  flex-basis: 70px;
+  flex-grow: 1;
+  background-color: #eaeced;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/*-----col------*/
+.col-container{
+  position: absolute;
+  width: 1080px;
+}
+.style{
+  border: 1px dotted #00a1ff;
+  line-height: 40px;
+  text-align: center;
+  background-color: #00b8d8;
+  color : white;
+  opacity: 0.6;
+  margin: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 40px;
+}
+
+.style-2{
+  margin-left:10px;
+  margin-right:10px;
+}
+
+
+.col-box{
+  display: flex;
+  justify-content: center;
+}
+
+.col-1{
+  width: 1060px;
+}
+.col-2{
+  margin-bottom: 10px;
+  width: 520px;
+}
+.col-3{
+  margin-bottom: 10px;
+  width: 340px;
+}
+.col-4{
+  margin-bottom: 10px;
+  width: 250px;
+}
+.col-6{
+  margin-bottom: 10px;
+  width: 160px;
+}
+.col-12{
+  margin-bottom: 10px;
+  width: 70px;
+}
+.col-1-5{
+  margin-bottom: 10px;
+  width: 790px;
+}
+
+
+/*-----etc------*/
+
+.h-300{
+  height: 300px;
+}
+
+.h-150{
+  line-height: 145px;
+  height: 145px;
+  margin-bottom: 10px;
+  text-align: center;
+  background-color: #00b8d8;
+  color : white;
+  opacity: 0.6;
+}
