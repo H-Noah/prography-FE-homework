@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html{
+  padding: 10%;
+  margin: 10%;
+}
+
+.right {
+  float:left;
+  width:30%;
+  height: 50px;
+  margin-top: 10px;
+  margin-right: 3%;
+  text-align:center;
+}
+
+.right-div-wrap {
+  font-size: 0;
+}
+
+.right-div-wrap > div:last-child {
+  margin-right: 0;
+}
+
+
+@media only screen and (max-width:620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width:100%;
+  }
+}
+
+.col-box{
+  display: flex;
+  justify-content: center;
+}
+.col-sm-12 {
+  width: 100%;
+}
+.col-sm-11 {
+  width: 91.66666667%;
+}
+.col-sm-10 {
+  width: 83.33333333%;
+}
+.col-sm-9 {
+  width: 75%;
+}
+.col-sm-8 {
+  width: 66.66666667%;
+}
+.col-sm-7 {
+  width: 58.33333333%;
+}
+.col-sm-6 {
+  width: 50%;
+}
+.col-sm-5 {
+  width: 41.66666667%;
+}
+.col-sm-4 {
+  width: 33.33333333%;
+
+}
+.col-sm-3 {
+  width: 25%;
+}
+.col-sm-2 {
+  width: 16.66666667%;
+}
+.col-sm-1 {
+  width: 8.33333333%;
+}
+
+
+/*-----color------*/
+
+.bluepink {
+  background-color: #f2f2f2;
+}
+.pazey {
+  background-color: #26015e;
+}
+.skirt {
+  background-color: #F6AC8B;
+}
+.greentintedBlue {
+  background-color: #9CF9D2;
+}
+.retox {
+  background-color: #B1EBFA;
+}
+.rosa {
+  background-color: #F2778B;
+}
+.bright {
+  background-color: #C9FFDE;
+}
+.candy {
+  background-color: #F8FFD4;
+}
+.chewy {
+  background-color: #FFD5EF;
+}
+.gum {
+  background-color: #C0F9FF;
+}
+.yummy {
+  background-color: #D4CCFF;
+}
