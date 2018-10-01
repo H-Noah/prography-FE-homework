@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="form.css">
+    <title>Form task</title>
+  </head>
+  <body>
+
+    <form action="/action_page.php">
+      <div class="container">
+        <h1>새 계정 만들기</h1>
+        <p>계정을 만들려면, 양식을 작성하십시오</p>
+        <hr>
+
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="email"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="psw" required>
+
+        <label for="psw-repeat"><b>Repeat Password</b></label>
+        <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+        <hr>
+        <p>계정을 생성하면 <a href="#">이용 약관 및 개인 정보 보호 정책</a>에 동의하게됩니다.</p>
+
+        <button type="submit" class="registerbtn">등록하기</button>
+      </div>
+
+      <div class="container signin">
+        <p>계정이 있으신가요? 그렇다면 <a href="#">로그인하기</a></p>
+      </div>
+    </form>
+  </body>
+</html>
