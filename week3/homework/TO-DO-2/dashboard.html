@@ -48,7 +48,7 @@
                         <b>바로가기</b>
                         <li><a href="./settings.html" class="active">Settings</a></li>
                         <li><a href="./index.html">Logout</a></li>
-                        <b>둘러보기</b>s
+                        <b>둘러보기</b>
                         <li><a href="./messenger.html" class="active"><img src = "assets/imgs/group.png" >그룹</a></li>
                         <li><a href="./messenger.html" class="active"><img src = "assets/imgs/flag.png" >페이지</a></li>
                         <li><a href="./messenger.html" class="active"><img src = "assets/imgs/calendar.png" >이벤트</a></li>
@@ -182,37 +182,37 @@
                     <div class="row">
                         <div class="col-sm-12 chat-user online">
                             <a href="#">
-                                <img src="assets/imgs/1.jpg" class="pull-left"/>
+                                <img src="assets/imgs/user (1).png" class="pull-left"/>
                                 &nbsp;
-                                Shubham Kumar
+                                김태희
                             </a>
                         </div>
                         <div class="col-sm-12 chat-user online">
                             <a href="#">
-                                <img src="assets/imgs/2.jpg" class="pull-left"/>
+                                <img src="assets/imgs/user (2).png" class="pull-left"/>
                                 &nbsp;
-                                Maninder Kaur
+                                기호건
                             </a>
                         </div>
                         <div class="col-sm-12 chat-user online">
                             <a href="#">
-                                <img src="assets/imgs/3.jpg" class="pull-left"/>
+                                <img src="assets/imgs/user.png" class="pull-left"/>
                                 &nbsp;
-                                Divyanshu Gupta
+                                류승준
                             </a>
                         </div>
                         <div class="col-sm-12 chat-user">
                             <a href="#">
-                                <img src="assets/imgs/4.jpg" class="pull-left"/>
+                                <img src="assets/imgs/man.png" class="pull-left"/>
                                 &nbsp;
-                                Akshima
+                                최지수
                             </a>
                         </div>
                         <div class="col-sm-12 chat-user online">
                             <a href="#">
-                                <img src="assets/imgs/5.jpg" class="pull-left"/>
+                                <img src="assets/imgs/boy.png" class="pull-left"/>
                                 &nbsp;
-                                Sourabh Thakur
+                                김애리
                             </a>
                         </div>
                     </div>
@@ -228,33 +228,5 @@
                 </div>
             </div>
         </div>
-        <script>
-            function like(id){
-                var elem = document.getElementById("post_like_count_"+id);
-                var count = parseInt(elem.innerHTML);
-                elem.innerHTML = count+1;
-                highlight(elem);
-            }
-            function share(id){
-                var elem = document.getElementById("post_share_count_"+id);
-                var count = parseInt(elem.innerHTML);
-                elem.innerHTML = count+1;
-                highlight(elem);
-            }
-            function comment(id){
-                var elem = document.getElementById("post_comment_count_"+id);
-                var count = parseInt(elem.innerHTML);
-                elem.innerHTML = count+1;
-                highlight(elem);
-            }
-            function highlight(elem){
-                elem.style.color = "red";
-                elem.parentElement.parentElement.style.transform="scale(1.5)";
-                setTimeout(function(){
-                    elem.style.color="";
-                    elem.parentElement.parentElement.style.transform="scale(1)";
-                },300);
-            }
-        </script>
     </body>
 </html>
